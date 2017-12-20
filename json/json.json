@@ -1,0 +1,63 @@
+{
+	"one": {
+	    "toptil":"主题促销",
+		"list1":
+				[
+					{
+						"title": "真划算",
+						"href": "//tuan.gome.com.cn/"
+					}, 
+					{
+						"title": "抢购",
+						"href": "//q.gome.com.cn/"
+					}, 
+					{
+						"title": "美家致选",
+						"href": "//www.gomehome.com/?intcmp=sy-1000037121-2"
+					}
+				],
+		"list2": 
+			    [
+					{
+						"title": "家电城",
+						"href": "//jiadian.gome.com.cn/"
+					}, 
+					{
+						"title": "服饰城",
+						"href": "//fashion.gome.com.cn/"
+					}, 
+					{
+						"title": "国美超市",
+						"href": "//market.gome.com.cn/"
+					}, 
+					{
+						"title": "品牌街",
+						"href": "//tehui.gome.com.cn/"
+					}
+				],
+		"list3":	 
+			    [
+					{
+						"title": "智能",
+						"href": "//smart.gome.com.cn/"
+					}, 
+					{
+						"title": "今日特卖",
+						"href": "//www.gome.com.cn/bestGome.html"
+					}, 
+					{
+						"title": "新品抢先",
+						"href": "//new.gome.com.cn/"
+					}, 
+					{
+						"title": "家居家装",
+						"href": "//homes.gome.com.cn/?intcmp=sy-1000000378-8"
+					}
+				]
+		    
+	},
+	"two": {},
+	"three": {},
+	"four": {},
+	"five": {}
+}

@@ -1,3 +1,568 @@
+#gome-topad-sm {
+  position: relative;
+  width: 100%;
+  height: 80px; }
+  #gome-topad-sm .wbox {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto; }
+    #gome-topad-sm .wbox #gome-topad-sm-pic img {
+      width: 1200px;
+      height: 80px; }
+    #gome-topad-sm .wbox .close-gome-topad {
+      position: absolute;
+      display: block;
+      top: 3px;
+      right: 3px;
+      cursor: pointer; }
+      #gome-topad-sm .wbox .close-gome-topad i {
+        display: block;
+        width: 24px;
+        height: 24px;
+        overflow: hidden;
+        line-height: 24px;
+        text-align: center;
+        color: #666; }
+        #gome-topad-sm .wbox .close-gome-topad i:hover {
+          background: #333;
+          opacity: 0.6; }
 
+.gome-top {
+  position: relative;
+  border-bottom: 1px solid #f3f3f3;
+  background: #f8f8f8;
+  width: 100%;
+  height: 30px;
+  color: #5e5e5e;
+  z-index: 999; }
+  .gome-top ul .hover {
+    background: #fff; }
+  .gome-top ul li.hover .public-dropdown {
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    padding: 10px 15px;
+    background: #fff; }
+  .gome-top #gome-top-body {
+    position: relative;
+    background: #f8f8f8;
+    height: 30px;
+    border-bottom: 1px solid #f3f3f3; }
+    .gome-top #gome-top-body #gome-top-left > li {
+      float: left;
+      position: relative;
+      font: 400 12px/30px Arial,"Microsoft YaHei"; }
+      .gome-top #gome-top-body #gome-top-left > li a {
+        color: #888; }
+    .gome-top #gome-top-body #gome-top-left #gome-entry-link {
+      margin: 0 10px;
+      height: 30px;
+      overflow: hidden; }
+      .gome-top #gome-top-body #gome-top-left #gome-entry-link a {
+        cursor: pointer;
+        color: #5e5e5e;
+        line-height: 32px; }
+        .gome-top #gome-top-body #gome-top-left #gome-entry-link a i {
+          width: 13px;
+          height: 12px;
+          margin-right: 5px;
+          display: inline-block; }
+      .gome-top #gome-top-body #gome-top-left #gome-entry-link:hover a {
+        color: #f5004b; }
+    .gome-top #gome-top-body #gome-top-left .gome-spacer {
+      width: 1px;
+      height: 11px;
+      margin: 10px 0 0;
+      padding: 0;
+      background: #e6e6e6;
+      overflow: hidden; }
+    .gome-top #gome-top-body #gome-top-left #gome-user {
+      margin-right: 12px; }
+      .gome-top #gome-top-body #gome-top-left #gome-user > b {
+        color: #5e5e5e;
+        font-weight: 400;
+        display: block;
+        padding: 0 20px 0 10px;
+        border: 1px solid #f8f8f8;
+        border-bottom: 0;
+        height: 30px;
+        overflow: hidden;
+        position: relative;
+        z-index: 9; }
+        .gome-top #gome-top-body #gome-top-left #gome-user > b a {
+          display: inline-block; }
+        .gome-top #gome-top-body #gome-top-left #gome-user > b i {
+          position: absolute;
+          top: 12px;
+          right: 8px;
+          width: 0px;
+          height: 0px;
+          overflow: hidden;
+          border-width: 4px;
+          border-style: solid;
+          border-color: #666 transparent transparent transparent; }
+      .gome-top #gome-top-body #gome-top-left #gome-user:hover i {
+        border-color: transparent transparent #666 transparent;
+        top: 8px; }
+      .gome-top #gome-top-body #gome-top-left #gome-user:hover b a {
+        color: #f5004b; }
+      .gome-top #gome-top-body #gome-top-left #gome-user .public-dropdown {
+        position: absolute;
+        top: 30px;
+        background: #fff;
+        height: 0;
+        left: 0;
+        overflow: hidden;
+        width: 290px; }
+        .gome-top #gome-top-body #gome-top-left #gome-user .public-dropdown #user-name {
+          padding: 5px 0 20px;
+          overflow: hidden; }
+          .gome-top #gome-top-body #gome-top-left #gome-user .public-dropdown #user-name i {
+            float: left;
+            width: 55px;
+            height: 55px;
+            border-radius: 50px;
+            display: inline-block;
+            vertical-align: middle;
+            background: #ccc; }
+          .gome-top #gome-top-body #gome-top-left #gome-user .public-dropdown #user-name div {
+            float: left;
+            font: 400 12px/20px Arial,"Microsoft YaHei";
+            padding: 0 0 0 15px;
+            width: 200px; }
+            .gome-top #gome-top-body #gome-top-left #gome-user .public-dropdown #user-name div .user-name-login {
+              padding-top: 20px; }
+            .gome-top #gome-top-body #gome-top-left #gome-user .public-dropdown #user-name div p {
+              color: #888;
+              width: 100%;
+              line-height: 16px;
+              overflow: hidden; }
+              .gome-top #gome-top-body #gome-top-left #gome-user .public-dropdown #user-name div p a {
+                color: #069; }
+    .gome-top #gome-top-body #gome-top-left .gome-link {
+      height: 30px;
+      overflow: hidden;
+      margin: 0; }
+      .gome-top #gome-top-body #gome-top-left .gome-link a {
+        margin-right: 10px;
+        line-height: 32px; }
+        .gome-top #gome-top-body #gome-top-left .gome-link a:hover {
+          color: #f5004b; }
+      .gome-top #gome-top-body #gome-top-left .gome-link .gome-link-register {
+        color: #f5004b; }
+        .gome-top #gome-top-body #gome-top-left .gome-link .gome-link-register i {
+          display: inline-block;
+          width: 12px;
+          height: 13px;
+          margin-left: 5px;
+          margin-top: -4px;
+          background: red; }
+    .gome-top #gome-top-body #gome-top-left #user-icon {
+      border-top: 1px solid #f3f3f3;
+      padding-top: 15px;
+      position: relative; }
+      .gome-top #gome-top-body #gome-top-left #user-icon p {
+        line-height: 18px;
+        overflow: hidden; }
+        .gome-top #gome-top-body #gome-top-left #user-icon p a {
+          color: #888;
+          float: right; }
+          .gome-top #gome-top-body #gome-top-left #user-icon p a:hover {
+            color: #f5004b; }
+        .gome-top #gome-top-body #gome-top-left #user-icon p span {
+          color: #ccc;
+          float: left; }
+      .gome-top #gome-top-body #gome-top-left #user-icon .user-icon-prev {
+        position: absolute;
+        top: 54px;
+        left: 10px;
+        width: 16px;
+        height: 29px;
+        line-height: 29px;
+        background: #ccc;
+        text-align: center;
+        font-size: 20px;
+        color: #888;
+        cursor: pointer;
+        display: inline-block; }
+        .gome-top #gome-top-body #gome-top-left #user-icon .user-icon-prev:hover {
+          opacity: 0.6; }
+      .gome-top #gome-top-body #gome-top-left #user-icon .user-icon-next {
+        position: absolute;
+        top: 54px;
+        right: 10px;
+        width: 16px;
+        height: 29px;
+        cursor: pointer;
+        line-height: 29px;
+        background: #ccc;
+        text-align: center;
+        font-size: 20px;
+        color: #888;
+        display: inline-block; }
+        .gome-top #gome-top-body #gome-top-left #user-icon .user-icon-next:hover {
+          opacity: 0.6; }
+      .gome-top #gome-top-body #gome-top-left #user-icon > div {
+        margin: 10px 25px 0; }
+        .gome-top #gome-top-body #gome-top-left #user-icon > div ul {
+          left: 0;
+          height: 70px;
+          overflow: hidden; }
+          .gome-top #gome-top-body #gome-top-left #user-icon > div ul li {
+            text-align: center;
+            position: relative;
+            font: 400 12px/30px Arial,"Microsoft YaHei"; }
+            .gome-top #gome-top-body #gome-top-left #user-icon > div ul li a {
+              color: #ccc; }
+              .gome-top #gome-top-body #gome-top-left #user-icon > div ul li a i {
+                display: block;
+                height: 40px;
+                font-size: 40px;
+                line-height: 40px;
+                vertical-align: middle; }
+    .gome-top #gome-top-body #gome-top-right {
+      float: right; }
+      .gome-top #gome-top-body #gome-top-right li {
+        float: left;
+        position: relative;
+        font: 400 12px/30px Arial,"Microsoft YaHei"; }
+        .gome-top #gome-top-body #gome-top-right li a {
+          color: #888; }
+      .gome-top #gome-top-body #gome-top-right .gome-link {
+        height: 30px;
+        overflow: hidden;
+        margin: 0; }
+        .gome-top #gome-top-body #gome-top-right .gome-link a {
+          margin-right: 10px;
+          line-height: 32px; }
+          .gome-top #gome-top-body #gome-top-right .gome-link a:hover {
+            color: #f5004b; }
+      .gome-top #gome-top-body #gome-top-right #gome-mygome b {
+        font-weight: 400;
+        display: block;
+        padding: 0 20px 0 10px;
+        border: 1px solid #f8f8f8;
+        border-bottom: 0;
+        height: 30px;
+        overflow: hidden;
+        position: relative;
+        z-index: 9; }
+        .gome-top #gome-top-body #gome-top-right #gome-mygome b i {
+          position: absolute;
+          top: 12px;
+          right: 8px;
+          width: 0px;
+          height: 0px;
+          overflow: hidden;
+          border-width: 4px;
+          border-style: solid;
+          border-color: #666 transparent transparent transparent; }
+      .gome-top #gome-top-body #gome-top-right #gome-mygome:hover i {
+        border-color: transparent transparent #666 transparent;
+        top: 8px; }
+      .gome-top #gome-top-body #gome-top-right #gome-mygome:hover b > a {
+        color: #f5004b; }
+      .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown {
+        position: absolute;
+        top: 30px;
+        background: #fff;
+        height: 0;
+        left: 0;
+        overflow: hidden;
+        width: 260px;
+        z-index: 100; }
+        .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown strong {
+          display: block;
+          font-weight: 700;
+          padding: 10px 10px 0;
+          font: 12px/24px Arial,"Microsoft YaHei";
+          color: #888; }
+          .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown strong a {
+            color: #069; }
+        .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-order {
+          padding: 0 0 9px;
+          margin: 0 10px;
+          border-bottom: 1px solid #f3f3f3;
+          overflow: hidden; }
+          .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-order li {
+            float: left;
+            width: 50%;
+            line-height: 25px;
+            height: 25px; }
+            .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-order li a:hover {
+              color: #f5004b; }
+        .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-coupon {
+          padding-left: 4px; }
+          .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-coupon li {
+            float: left;
+            width: 63px;
+            text-align: center;
+            padding: 8px 0 10px; }
+            .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-coupon li a {
+              display: block;
+              line-height: 14px;
+              margin: 5px 0;
+              border-right: 1px solid #f3f3f3; }
+              .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-coupon li a:hover {
+                color: #f5004b; }
+            .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-coupon li span {
+              width: 100%;
+              margin: 0;
+              display: inline-block;
+              vertical-align: middle;
+              color: #cdcdcd;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden; }
+        .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown p {
+          clear: both;
+          background: #f8f8f8;
+          padding: 10px;
+          overflow: hidden; }
+        .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-track {
+          background: #f8f8f8;
+          padding: 0 0 18px 10px;
+          height: 50px;
+          overflow: hidden; }
+          .gome-top #gome-top-body #gome-top-right #gome-mygome .public-dropdown #mygome-track li {
+            float: left;
+            width: 50px;
+            height: 50px;
+            margin: 0 12px 10px 0;
+            background: #ccc; }
+      .gome-top #gome-top-body #gome-top-right .gome-spacer {
+        width: 1px;
+        height: 11px;
+        margin: 10px 0 0;
+        padding: 0;
+        background: #e6e6e6;
+        overflow: hidden; }
+      .gome-top #gome-top-body #gome-top-right .gome-link {
+        height: 30px;
+        overflow: hidden;
+        margin: 0; }
+        .gome-top #gome-top-body #gome-top-right .gome-link a {
+          margin-left: 10px;
+          margin-right: 10px;
+          line-height: 32px; }
+          .gome-top #gome-top-body #gome-top-right .gome-link a:hover {
+            color: #f5004b; }
+      .gome-top #gome-top-body #gome-top-right #gome-service b {
+        font-weight: 400;
+        display: block;
+        padding: 0 20px 0 10px;
+        border: 1px solid #f8f8f8;
+        border-bottom: 0;
+        height: 30px;
+        overflow: hidden;
+        position: relative;
+        z-index: 9; }
+        .gome-top #gome-top-body #gome-top-right #gome-service b i {
+          position: absolute;
+          top: 12px;
+          right: 8px;
+          width: 0px;
+          height: 0px;
+          overflow: hidden;
+          border-width: 4px;
+          border-style: solid;
+          border-color: #666 transparent transparent transparent; }
+        .gome-top #gome-top-body #gome-top-right #gome-service b em {
+          font-size: 17px;
+          color: #dd00a7;
+          background: 0 0;
+          line-height: 30px;
+          position: absolute;
+          left: 10px;
+          width: 18px;
+          height: 30px;
+          top: 0;
+          margin-right: 6px;
+          display: inline-block;
+          vertical-align: middle; }
+      .gome-top #gome-top-body #gome-top-right #gome-service:hover i {
+        border-color: transparent transparent #666 transparent;
+        top: 8px; }
+      .gome-top #gome-top-body #gome-top-right #gome-service:hover b > a {
+        color: #f5004b; }
+      .gome-top #gome-top-body #gome-top-right #gome-service .public-dropdown {
+        position: absolute;
+        top: 30px;
+        background: #fff;
+        height: 0;
+        left: 0;
+        overflow: hidden;
+        width: 210px; }
+        .gome-top #gome-top-body #gome-top-right #gome-service .public-dropdown p {
+          font: 700 12px/24px Arial,"Microsoft YaHei";
+          color: #898989; }
+          .gome-top #gome-top-body #gome-top-right #gome-service .public-dropdown p a:hover {
+            color: #f5004b; }
+        .gome-top #gome-top-body #gome-top-right #gome-service .public-dropdown ul {
+          padding: 0 0 10px;
+          height: 48px;
+          overflow: hidden; }
+          .gome-top #gome-top-body #gome-top-right #gome-service .public-dropdown ul li {
+            float: left;
+            font: 12px/24px Arial,"Microsoft YaHei";
+            width: 33%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden; }
+            .gome-top #gome-top-body #gome-top-right #gome-service .public-dropdown ul li a:hover {
+              color: #f5004b; }
+        .gome-top #gome-top-body #gome-top-right #gome-service .public-dropdown .live800-service {
+          color: #fff;
+          background: #dd00a7;
+          text-align: center;
+          display: block;
+          line-height: 25px;
+          height: 25px;
+          cursor: pointer;
+          font-weight: 400;
+          margin-top: 4px; }
+          .gome-top #gome-top-body #gome-top-right #gome-service .public-dropdown .live800-service em {
+            font-size: 19px;
+            line-height: 25px;
+            height: 25px;
+            color: #fff;
+            background: 0 0;
+            top: 5px;
+            left: 10px;
+            width: 18px;
+            margin-right: 6px; }
+      .gome-top #gome-top-body #gome-top-right #gome-sitemap {
+        position: static; }
+        .gome-top #gome-top-body #gome-top-right #gome-sitemap .hover {
+          background: #fff; }
+        .gome-top #gome-top-body #gome-top-right #gome-sitemap .hover .public-dropdown {
+          border: 1px solid #e6e6e6;
+          border-top: none;
+          padding: 10px 0;
+          background: #fff; }
+        .gome-top #gome-top-body #gome-top-right #gome-sitemap b {
+          font-weight: 400;
+          display: block;
+          padding: 0 20px 0 10px;
+          border: 1px solid #f8f8f8;
+          border-bottom: 0;
+          height: 30px;
+          overflow: hidden;
+          position: relative;
+          z-index: 9; }
+          .gome-top #gome-top-body #gome-top-right #gome-sitemap b i {
+            position: absolute;
+            top: 12px;
+            right: 8px;
+            width: 0px;
+            height: 0px;
+            overflow: hidden;
+            border-width: 4px;
+            border-style: solid;
+            border-color: #666 transparent transparent transparent; }
+        .gome-top #gome-top-body #gome-top-right #gome-sitemap:hover i {
+          border-color: transparent transparent #666 transparent;
+          top: 8px; }
+        .gome-top #gome-top-body #gome-top-right #gome-sitemap:hover b > a {
+          color: #f5004b; }
+        .gome-top #gome-top-body #gome-top-right #gome-sitemap .public-dropdown {
+          position: absolute;
+          top: 30px;
+          background: #fff;
+          height: 0;
+          left: 0;
+          overflow: hidden;
+          z-index: 100;
+          width: 1198px; }
+          .gome-top #gome-top-body #gome-top-right #gome-sitemap .public-dropdown dl {
+            float: left;
+            padding: 0 15px 0 40px;
+            border-left: 1px solid #f3f3f3;
+            margin: 15px 0; }
+            .gome-top #gome-top-body #gome-top-right #gome-sitemap .public-dropdown dl dt {
+              font: 700 14px/14px Arial,"Microsoft YaHei";
+              margin: 0 0 14px; }
+            .gome-top #gome-top-body #gome-top-right #gome-sitemap .public-dropdown dl dd {
+              overflow: hidden;
+              min-height: 120px; }
+              .gome-top #gome-top-body #gome-top-right #gome-sitemap .public-dropdown dl dd ul {
+                float: left;
+                width: 75px; }
+                .gome-top #gome-top-body #gome-top-right #gome-sitemap .public-dropdown dl dd ul li {
+                  width: 100%;
+                  text-align: left;
+                  font: 12px/24px Arial,"Microsoft YaHei";
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden; }
+                  .gome-top #gome-top-body #gome-top-right #gome-sitemap .public-dropdown dl dd ul li a:hover {
+                    color: #f5004b; }
+          .gome-top #gome-top-body #gome-top-right #gome-sitemap .public-dropdown .none {
+            border: none; }
+      .gome-top #gome-top-body #gome-top-right #gome-phone .hover {
+        background: #fff; }
+      .gome-top #gome-top-body #gome-top-right #gome-phone .hover .public-dropdown {
+        border: 1px solid #e6e6e6;
+        border-top: none;
+        padding: 15px;
+        background: #fff;
+        font-size: 0;
+        height: 170px; }
+      .gome-top #gome-top-body #gome-top-right #gome-phone b {
+        font-weight: 400;
+        display: block;
+        padding: 0 20px 0 10px;
+        border: 1px solid #f8f8f8;
+        border-bottom: 0;
+        height: 30px;
+        overflow: hidden;
+        position: relative;
+        z-index: 9; }
+        .gome-top #gome-top-body #gome-top-right #gome-phone b i {
+          position: absolute;
+          top: 12px;
+          right: 8px;
+          width: 0px;
+          height: 0px;
+          overflow: hidden;
+          border-width: 4px;
+          border-style: solid;
+          border-color: #666 transparent transparent transparent; }
+        .gome-top #gome-top-body #gome-top-right #gome-phone b em {
+          font-size: 17px;
+          color: #dd00a7;
+          background: 0 0;
+          line-height: 30px;
+          position: absolute;
+          left: 10px;
+          width: 18px;
+          height: 30px;
+          top: 0;
+          margin-right: 6px;
+          display: inline-block;
+          vertical-align: middle; }
+      .gome-top #gome-top-body #gome-top-right #gome-phone .public-dropdown {
+        position: absolute;
+        top: 30px;
+        background: #fff;
+        height: 0;
+        left: 0;
+        overflow: hidden;
+        z-index: 100;
+        left: auto;
+        right: 0;
+        width: auto; }
+        .gome-top #gome-top-body #gome-top-right #gome-phone .public-dropdown a {
+          display: inline-block;
+          height: 170px;
+          width: 130px;
+          background: red; }
+      .gome-top #gome-top-body #gome-top-right #gome-phone:hover i {
+        border-color: transparent transparent #666 transparent;
+        top: 8px; }
+      .gome-top #gome-top-body #gome-top-right #gome-phone:hover b > a {
+        color: #f5004b; }
+  .gome-top .wbox {
+    width: 1200px;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=head&foot.css.map */

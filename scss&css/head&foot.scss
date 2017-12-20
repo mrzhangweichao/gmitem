@@ -1,0 +1,673 @@
+//head-img s;
+#gome-topad-sm{
+    position: relative;
+    width:100%;
+    height:80px;
+    .wbox{
+        position:relative;
+        width: 1200px;
+        margin: 0 auto;
+        #gome-topad-sm-pic{
+            img{
+                width:1200px;
+                height:80px;
+            }
+        }
+        .close-gome-topad{
+            position: absolute;
+            display: block;
+            top: 3px;
+            right: 3px;
+            cursor: pointer;
+            i{
+                display: block;
+                width: 24px;
+                height: 24px;
+                overflow: hidden; 
+                line-height:24px;
+                text-align:center;
+                color:#666;
+                &:hover{
+                    background:#333;
+                    opacity:0.6;
+                }
+            }
+        }
+    }
+}
+//head-img e;
+
+//head-top s;
+.gome-top{
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+    background: #f8f8f8;
+    width:100%;
+    height: 30px;
+    color: #5e5e5e;
+    z-index: 999;
+    ul .hover{
+        background:#fff;
+        
+    }
+    ul li.hover .public-dropdown{
+        border: 1px solid #e6e6e6;
+        border-top: none;
+        padding: 10px 15px;
+        background: #fff;
+    }
+    @mixin gome-top-b{
+            font-weight: 400;
+            display: block;
+            padding: 0 20px 0 10px;
+            border: 1px solid #f8f8f8;
+            border-bottom: 0;
+            height: 30px;
+            overflow: hidden;
+            position: relative;
+            z-index: 9;
+    }
+    @mixin gome-top-b-i{
+        position: absolute;
+        top: 12px;
+        right: 8px;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        border-width:4px;
+        border-style: solid;
+        border-color:#666 transparent transparent transparent ;
+        
+    }
+    @mixin gome-top-b-i-hover{
+        border-color:transparent transparent #666 transparent;
+        top:8px;
+    }
+    @mixin gome-top-public-dropdown{
+        position: absolute;
+        top: 30px;
+        background: #fff;
+        height: 0;
+        left: 0;
+        overflow: hidden;
+    }
+    #gome-top-body{
+        position: relative;
+        background: #f8f8f8;
+        height: 30px;
+        border-bottom: 1px solid #f3f3f3;
+        //nav左侧;
+        #gome-top-left{
+            >li{
+                float: left;
+                position: relative;
+                font: 400 12px/30px Arial,"Microsoft YaHei";
+                a{
+                     color: #888;
+                }
+            }
+            #gome-entry-link{
+                margin: 0 10px;
+                height: 30px;
+                overflow: hidden;
+                a{
+                    cursor: pointer;
+                    color: #5e5e5e;
+                    line-height: 32px;
+                    i{
+                        width: 13px;
+                        height: 12px;
+                        margin-right: 5px;
+                        display: inline-block;
+                    }
+                }
+                &:hover{
+                    a{
+                       color:#f5004b; 
+                    }
+                    
+                }
+            }
+            .gome-spacer{
+                width: 1px;
+                height: 11px;
+                margin: 10px 0 0;
+                padding: 0;
+                background: #e6e6e6;
+                overflow: hidden;
+            }
+            
+            #gome-user{
+                margin-right: 12px;
+                >b{
+                    color: #5e5e5e;
+                    @include gome-top-b;
+                    a{
+                        display:inline-block;
+                    }
+                    i{
+                        @include gome-top-b-i;
+                    }
+                }
+                &:hover{
+                    i{
+                        @include gome-top-b-i-hover;
+                    }
+                }
+                &:hover b a{
+                    color:#f5004b;
+                }
+                .public-dropdown{
+                        @include gome-top-public-dropdown;
+                        width: 290px;
+                        #user-name{
+                            padding: 5px 0 20px;
+                            overflow: hidden;
+//                          border-left:1px solid #E6E6E6;
+//                          border-right:1px solid #E6E6E6;
+                            @mixin user-name-p{
+                                color: #888;
+                                width: 100%;
+                                line-height: 16px;
+                                overflow: hidden;
+                            }
+                            i{
+                                float: left;
+                                width: 55px;
+                                height: 55px;
+                                border-radius: 50px;
+                                display: inline-block;
+                                vertical-align: middle;
+                                background:#ccc;
+                            }
+                            div{
+                                float: left;
+                                font: 400 12px/20px Arial,"Microsoft YaHei";
+                                padding: 0 0 0 15px;
+                                width: 200px;  
+                                .user-name-login{
+                                    padding-top: 20px;
+                                }
+                                p{
+                                    color: #888;
+                                    width: 100%;
+                                    line-height: 16px;
+                                    overflow: hidden;
+                                    a{
+                                        color: #069;
+                                    }
+                                }                         
+                            }
+                        }
+                    }
+            }
+            .gome-link{
+                height: 30px;
+                overflow: hidden;
+                margin: 0;
+                //登录/注册;
+                a{
+                    margin-right: 10px;
+                    line-height: 32px;
+                    &:hover{
+                        color:#f5004b;
+                    }
+                }
+                .gome-link-register{
+                    color: #f5004b;
+                    i{
+                        display: inline-block;
+                        width: 12px;
+                        height: 13px;
+                        margin-left: 5px;
+                        margin-top: -4px;
+                        background:red;
+                    }
+                }
+                
+            }
+            //user-icon;
+            #user-icon{
+//              border-left:1px solid #E6E6E6;
+//              border-right:1px solid #E6E6E6;
+//              border-bottom:1px solid #E6E6E6;
+                
+//              width:290px;
+//              padding:0 10px;
+                border-top: 1px solid #f3f3f3;
+                padding-top: 15px;
+                position: relative;
+                p{
+                    line-height: 18px;
+                    overflow: hidden;
+                    a{
+                        color: #888;
+                        float:right;
+                        &:hover{
+                            color:#f5004b;
+                        }
+                    }
+                    span{
+                        color:#ccc;
+                        float:left;
+                    }
+                }
+                .user-icon-prev{
+                    position: absolute;
+                    top: 54px;
+                    left: 10px;
+                    width: 16px;
+                    height: 29px;
+                    line-height:29px;
+                    background:#ccc;
+                    text-align:center;
+                    font-size:20px;
+                    color:#888;
+                    cursor: pointer;
+                    display: inline-block;
+                    &:hover{
+                        opacity:0.6
+                    }
+                }
+                .user-icon-next{
+                    position: absolute;
+                    top: 54px;
+                    right:10px;
+                    width: 16px;
+                    height: 29px;
+                    cursor: pointer;
+                    line-height:29px;
+                    background:#ccc;
+                    text-align:center;
+                    font-size:20px;
+                    color:#888;
+                    display: inline-block;
+                    &:hover{
+                        opacity:0.6
+                    }
+                }
+                >div {
+                       margin: 10px 25px 0;
+                     ul{
+                         left:0;
+                        height: 70px;
+                        overflow: hidden;
+                        li{
+                            text-align: center;
+                            position: relative;
+                            font: 400 12px/30px Arial,"Microsoft YaHei";
+                            a{
+                                color: #ccc;
+                                i{
+                                    display: block;
+                                    height: 40px;
+    //                              background: red;
+                                    font-size: 40px;
+                                    line-height: 40px;
+                                    vertical-align: middle;
+                                    
+                                }
+                            }
+                        }
+                    }    
+                    
+                }
+            }
+        }
+        //nav右侧;
+        #gome-top-right{
+            float: right;
+            li{
+                float: left;
+                position: relative;
+                font: 400 12px/30px Arial,"Microsoft YaHei";
+                a{
+                    color:#888;
+                }
+            }
+            .gome-link{
+                height: 30px;
+                overflow: hidden;
+                margin: 0;
+                a{
+                    margin-right: 10px;
+                    line-height: 32px;
+                    &:hover{
+                        color:#f5004b;
+                    }
+                }
+            }
+            #gome-mygome{
+                b{
+                    @include gome-top-b;
+                    i{
+                        @include gome-top-b-i;
+                    }
+                }
+                &:hover{
+                    i{
+                        @include gome-top-b-i-hover;
+                    }
+                    b>a{
+                        color:#f5004b;
+                    }
+                }
+
+                .public-dropdown{
+                    @include gome-top-public-dropdown;
+                    width:260px;
+                    z-index:100;
+                    strong{
+                        display: block;
+                        font-weight: 700;
+                        padding: 10px 10px 0;
+                        font: 12px/24px Arial,"Microsoft YaHei";
+                        color: #888;
+                        a{
+                            color: #069;
+                        }
+                    }
+                    #mygome-order{
+                        padding: 0 0 9px;
+                        margin: 0 10px;
+                        border-bottom: 1px solid #f3f3f3;
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            width: 50%;
+                            line-height: 25px;
+                            height: 25px;
+                            a{
+                                &:hover{
+                                    color:#f5004b;
+                                }    
+                            }
+                        }
+                    }
+                    #mygome-coupon{
+                        padding-left: 4px;
+                        li{
+                            float: left;
+                            width: 63px;
+                            text-align: center;
+                            padding: 8px 0 10px;
+                            a{
+                                display: block;
+                                line-height: 14px;
+                                margin: 5px 0;
+                                border-right: 1px solid #f3f3f3;
+                               &:hover{
+                                    color:#f5004b;
+                                } 
+                            }
+                            span{
+                                width: 100%;
+                                margin: 0;
+                                display: inline-block;
+                                vertical-align: middle;
+                                color: #cdcdcd;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                    p{
+                        clear: both;
+                        background: #f8f8f8;
+                        padding: 10px;
+                        overflow: hidden;
+                    }
+                    #mygome-track{
+                        background: #f8f8f8;
+                        padding: 0 0 18px 10px;
+                        height: 50px;
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            width: 50px;
+                            height: 50px;
+                            margin: 0 12px 10px 0;
+                            background:#ccc;
+                        }
+                    }
+                }
+            }
+            .gome-spacer{
+                width: 1px;
+                height: 11px;
+                margin: 10px 0 0;
+                padding: 0;
+                background: #e6e6e6;
+                overflow: hidden;
+            }
+            .gome-link{
+                height: 30px;
+                overflow: hidden;
+                margin: 0;
+                a{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    line-height: 32px;
+                    &:hover{
+                        color:#f5004b;
+                    }
+                }
+            }
+            #gome-service{
+                b{
+                    @include gome-top-b;
+                    i{
+                        @include gome-top-b-i;
+                    }
+                    em{
+                        font-size: 17px;
+                        color: #dd00a7;
+                        background: 0 0;
+                        line-height: 30px;
+                        position:absolute;
+                        left:10px;
+                        width:18px;
+                        height: 30px;
+                        top: 0;
+                        margin-right:6px;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+                &:hover{
+                    i{
+                        @include gome-top-b-i-hover;
+                    }
+                    b>a{
+                        color:#f5004b;
+                    }
+                }
+                .public-dropdown{
+                    @include gome-top-public-dropdown;
+                    width:210px;
+                    p{
+                        font: 700 12px/24px Arial,"Microsoft YaHei";
+                        color: #898989;
+                        a{
+                           &:hover{
+                              color:#f5004b; 
+                           } 
+                        }
+                    }
+                    ul{
+                        padding: 0 0 10px;
+                        height: 48px;
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            font: 12px/24px Arial,"Microsoft YaHei";
+                            width: 33%;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            a{
+                                &:hover{
+                                    color:#f5004b; 
+                                }
+                            }
+                        }
+                    }
+                    .live800-service{
+                        color: #fff;
+                        background: #dd00a7;
+                        text-align: center;
+                        display: block;
+                        line-height: 25px;
+                        height: 25px;
+                        cursor: pointer;
+                        font-weight: 400;
+                        margin-top: 4px;
+                        em{
+                            font-size: 19px;
+                            line-height: 25px;
+                            height: 25px;
+                            color: #fff;
+                            background: 0 0;
+                            top: 5px;
+                            left: 10px;
+                            width: 18px;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+                
+            }
+            #gome-sitemap{
+                position:static;
+                .hover{
+                    background:#fff;
+                    
+                }
+                .hover .public-dropdown{
+                    border: 1px solid #e6e6e6;
+                    border-top: none;
+                    padding: 10px 0;
+                    background: #fff;
+                }
+               b{
+                    @include gome-top-b;
+                    i{
+                        @include gome-top-b-i;
+                    }
+                }
+                &:hover{
+                    i{
+                        @include gome-top-b-i-hover;
+                    }
+                    b>a{
+                        color:#f5004b;
+                    }
+                } 
+                .public-dropdown{
+                    @include gome-top-public-dropdown;
+                    z-index:100;
+                    width:1198px;
+                    //overflow: visible;
+                    dl{
+                        float: left;
+                        padding: 0 15px 0 40px;
+                        border-left: 1px solid #f3f3f3;
+                        margin: 15px 0;
+                        dt{
+                            font: 700 14px/14px Arial,"Microsoft YaHei";
+                            margin: 0 0 14px;
+                        }
+                        dd{
+                            overflow: hidden;
+                            min-height: 120px;
+                            ul{
+                                float: left;
+                                width: 75px;
+                                li{
+                                    width: 100%;
+                                    text-align: left;
+                                    font: 12px/24px Arial,"Microsoft YaHei";
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                    overflow: hidden;
+                                    a{
+                                       &:hover{
+                                           color:#f5004b;
+                                       } 
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .none{
+                        border:none;
+                    }
+                }
+            }
+            #gome-phone{
+                .hover{
+                    background:#fff;
+                    
+                }
+                .hover .public-dropdown{
+                    border: 1px solid #e6e6e6;
+                    border-top: none;
+                    padding: 15px;
+                    background: #fff;
+                    font-size: 0;
+                    height: 170px;
+                }
+                b{
+                    @include gome-top-b;
+                    i{
+                        @include gome-top-b-i;
+                    }
+                    em{
+                        font-size: 17px;
+                        color: #dd00a7;
+                        background: 0 0;
+                        line-height: 30px;
+                        position:absolute;
+                        left:10px;
+                        width:18px;
+                        height: 30px;
+                        top: 0;
+                        margin-right:6px;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+                .public-dropdown{
+                    @include gome-top-public-dropdown;
+                    z-index:100;
+                    left: auto;
+                    right: 0;
+                    width: auto;
+//                  overflow: visible;
+                    
+                    a{
+                        display: inline-block;
+                        height: 170px;
+                        width: 130px;
+                        background:red;
+                        
+                    }
+                }
+                &:hover{
+                    i{
+                        @include gome-top-b-i-hover;
+                    }
+                    b>a{
+                        color:#f5004b;
+                    }
+                }
+            }
+        }
+    }
+    .wbox{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+//head-top e;
