@@ -1,0 +1,100 @@
+.cart_success {
+  height: 150px;
+  background: #f8f8f8;
+  width: 100%; }
+  .cart_success .success_cnt {
+    width: 990px;
+    height: 150px;
+    margin: 0 auto; }
+    .cart_success .success_cnt .msg {
+      height: 56px;
+      color: #68b64c;
+      font-size: 18px;
+      padding-top: 24px; }
+      .cart_success .success_cnt .msg i {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+        color: #68b64c;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #68b64c;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 15px; }
+    .cart_success .success_cnt .pro {
+      width: 100%;
+      height: 52px; }
+      .cart_success .success_cnt .pro .fl {
+        float: left;
+        width: 340px;
+        height: 52px; }
+        .cart_success .success_cnt .pro .fl .fl_box {
+          width: 340px;
+          height: 52px; }
+        .cart_success .success_cnt .pro .fl .pic {
+          margin-right: 10px;
+          float: left; }
+          .cart_success .success_cnt .pro .fl .pic a {
+            display: block;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #cecece; }
+            .cart_success .success_cnt .pro .fl .pic a img {
+              width: 50px;
+              height: 50px; }
+        .cart_success .success_cnt .pro .fl .txt {
+          float: left;
+          width: 270px;
+          padding: 5px 0; }
+          .cart_success .success_cnt .pro .fl .txt .pro_name {
+            width: 270px;
+            height: 20px;
+            overflow: hidden;
+            margin-bottom: 5px; }
+            .cart_success .success_cnt .pro .fl .txt .pro_name a {
+              display: block;
+              width: 250px;
+              height: 20px;
+              color: #333;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+              .cart_success .success_cnt .pro .fl .txt .pro_name a:hover {
+                color: red; }
+          .cart_success .success_cnt .pro .fl .txt .pro_num {
+            font-size: 12px;
+            color: #cecece; }
+            .cart_success .success_cnt .pro .fl .txt .pro_num span:nth-child(1) {
+              margin-right: 50px; }
+      .cart_success .success_cnt .pro .fr {
+        float: right;
+        width: 310px;
+        margin-top: 10px; }
+        .cart_success .success_cnt .pro .fr .fh {
+          display: block;
+          float: left;
+          width: 86px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          font-size: 16px;
+          border: 1px solid #cecece;
+          margin-right: 8px;
+          color: #333;
+          cursor: pointer; }
+        .cart_success .success_cnt .pro .fr .tz_cart {
+          display: block;
+          float: left;
+          width: 210px;
+          height: 42px;
+          background: red;
+          text-align: center;
+          line-height: 42px;
+          font-size: 16px;
+          color: #fff;
+          cursor: pointer; }
+          .cart_success .success_cnt .pro .fr .tz_cart:hover {
+            background: brown; }
+
+/*# sourceMappingURL=cartSuccess.css.map */

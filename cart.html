@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="scss&css/total.css" />
+		<link rel="stylesheet" href="scss&css/cart.css" />
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/cartjs.js"></script>
+		<script src="js/basejs.js"></script>
+		
+	</head>
+	<body>
+		<!--head-img s-->
+		<div id="gome-topad-sm" style="background: rgb(151, 13, 26);">
+			<div class="gome-topad-box wbox">
+				<a id="gome-topad-sm-pic" href="">
+					<img src="img/head-top.jpg" alt="" />
+				</a>
+				<a class="close-gome-topad" href="javascript:void(0)">
+					<i>X</i>
+				</a>
+			</div>
+		</div>
+		<!--heade-img e-->
+
+		<!--head-top s-->
+		<div class="gome-top">
+			<div id="gome-top-body" class="wbox">
+
+				<!--nav左侧-->
+				<ul id="gome-top-left">
+					<li id="gome-entry-link">
+						<a href="home.html" class="home_btn">
+							<i class="icon-gome-logo"></i> 国美首页
+						</a>
+					</li>
+					<li class="gome-spacer"></li>
+					<li id="gome-user">
+						<b id="loginDiv-name"><a class="home_btn">国美会员</a>
+							<i></i>
+						</b>
+						<div class="public-dropdown" style="height: 0px;">
+							<div id="user-name">
+								<i></i>
+								<div>
+									<p class="user-name-login">欢迎来到国美，
+										<a class="link_login">请登录！</a>
+									</p>
+								</div>
+							</div>
+
+							<div id="user-icon">
+								<p>
+									<span>我的特权</span>
+									<a href="">会员俱乐部</a>
+								</p>
+								<a class="user-icon-prev">
+									<</a>
+										<a class="user-icon-next">></a>
+										<div style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 240px;">
+											<ul style="position: relative; z-index: 1; width: 720px; left: 0px;">
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="http://quanyi.gome.com.cn/" target="_blank"><i class="gm-icon">6</i>美豆抽奖</a>
+												</li>
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="http://quanyi.gome.com.cn/" target="_blank"><i class="gm-icon">:</i>退换货保障</a>
+												</li>
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="http://quanyi.gome.com.cn/" target="_blank"><i class="gm-icon">?</i>价格保护</a>
+												</li>
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="http://quanyi.gome.com.cn/" target="_blank"><i class="gm-icon">@</i>消费得美豆</a>
+												</li>
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="http://quanyi.gome.com.cn/" target="_blank"><i class="gm-icon">=</i>专属阶梯价</a>
+												</li>
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="http://quanyi.gome.com.cn/" target="_blank"><i class="gm-icon">9</i>生日礼包</a>
+												</li>
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="http://quanyi.gome.com.cn/" target="_blank"><i class="gm-icon">7</i>自营免运费</a>
+												</li>
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="http://quanyi.gome.com.cn/" target="_blank"><i class="gm-icon">&gt;</i>专属客服</a>
+												</li>
+												<li style="overflow: hidden; float: left; width: 80px; height: 70px;">
+													<a href="javascript:void(0);"><i class="gm-icon">≠</i>更多精彩</a>
+												</li>
+											</ul>
+										</div>
+							</div>
+						</div>
+					</li>
+					<li id="loginDiv-link" class="gome-link">
+						<a class="link_login">登录</a>
+						<a class="gome-link-register" href="register.html">注册有礼<i></i></a>
+					</li>
+				</ul>
+
+				<!--nav右侧-->
+				<ul id="gome-top-right">
+					<li class="gome-link">
+						<a href="http://myhome.gome.com.cn/member/myOrder?flag=a0">我的订单</a>
+					</li>
+					<li id="gome-mygome">
+						<b><a href="">我的国美</a><i></i></b>
+						<div class="public-dropdown" style="height: 0px;">
+							<strong>我的国美，
+								<a class="link_login">请登录！</a>
+							</strong>
+							<ul id="mygome-order">
+								<li>
+									<a href="http://myhome.gome.com.cn/member/myOrder">待处理订单</a><ins id="waitPay"></ins></li>
+								<li>
+									<a href="http://myhome.gome.com.cn/member/myFavorites" target="_blank">我的收藏</a>
+								</li>
+								<li>
+									<a href="http://myjr.gome.com.cn/" target="_blank">我的金融</a>
+								</li>
+								<li>
+									<a href="http://myhome.gome.com.cn/member/profile" target="_blank">个人资料</a>
+								</li>
+								<li>
+									<a href="http://meidian.gome.com.cn/admin" target="_blank">我的美店</a>
+								</li>
+							</ul>
+							<ul id="mygome-coupon">
+								<li>
+									<a href="http://myhome.gome.com.cn/member/gomeMyCoupon?type=21" target="_blank">红&nbsp;券</a><span id="redCoupon">-</span></li>
+								<li>
+									<a href="http://myhome.gome.com.cn/member/gomeMyCoupon?type=22" target="_blank">蓝&nbsp;券</a><span id="blueCoupon">-</span></li>
+								<li>
+									<a href="http://myhome.gome.com.cn/member/gomeMyCoupon?type=24" target="_blank">店铺券</a><span id="shopCoupon">-</span></li>
+								<li class="none">
+									<a href="http://myhome.gome.com.cn/member/gomeMyCoupon?type=26" target="_blank">购物券</a><span id="platformCoupon">-</span></li>
+							</ul>
+							<p>足迹</p>
+							<ul id="mygome-track">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+
+					</li>
+					<li class="gome-spacer"></li>
+					<li class="gome-link">
+						<a class="gome-link-ml10" href="http://b.gome.com.cn/">企业采购</a>
+					</li>
+					<li id="gome-service" class="drop">
+						<b><em class="gm-icon">f</em><a href="http://help.gome.com.cn/">服务中心</a><i></i></b>
+						<div class="public-dropdown">
+							<p>
+								<a href="http://help.gome.com.cn/shfw">售后服务</a>
+							</p>
+							<ul>
+								<li>
+									<a href="http://help.gome.com.cn/question/9.html">物流与配送</a>
+								</li>
+								<li>
+									<a href="http://help.gome.com.cn/question/25.html">上门安装</a>
+								</li>
+								<li>
+									<a href="http://help.gome.com.cn/html/shfw/thh-zy.html">退换货服务</a>
+								</li>
+								<li>
+									<a href="http://www.gomegj.com/repairindex.html">手机维修</a>
+								</li>
+								<li>
+									<a href="http://help.gome.com.cn/html/shfw/ybfw.html">延保服务</a>
+								</li>
+								<li>
+									<a href="http://www.gomegj.com/recycleindex.html">家电回收</a>
+								</li>
+							</ul>
+							<p>
+								<a href="http://help.gome.com.cn/bzfw">帮助服务</a>
+							</p>
+							<ul>
+								<li>
+									<a href="http://help.gome.com.cn/bzfw">焦点问题</a>
+								</li>
+								<li>
+									<a href="http://help.gome.com.cn/article/229-0-0.html">签收与验货</a>
+								</li>
+								<li>
+									<a href="http://help.gome.com.cn/article/234-0-0.html">分期付款</a>
+								</li>
+								<li>
+									<a href="http://help.gome.com.cn/article/315-0-0.html">退款说明</a>
+								</li>
+								<li>
+									<a href="http://help.gome.com.cn/article/279-0-0.html">优惠券说明</a>
+								</li>
+							</ul>
+							<a class="live800-service"><em class="gm-icon">f</em>在线客服</a>
+
+					</li>
+					<!--网站导航-->
+					<li id="gome-sitemap" class="drop">
+						<b><a href="http://sitemap.gome.com.cn/">网站导航</a><i></i></b>
+						<div class="public-dropdown listwrap">
+							
+						</div>
+					</li>
+					<li class="gome-spacer"></li>
+					<li id="gome-phone" class="drop">
+						<b><em class="gm-icon">á</em><a href="http://shouji.gome.com.cn/">手机国美</a><i></i></b>
+						<div class="public-dropdown">
+							<a class="gome-qrcode" href="http://shouji.gome.com.cn/"></a>
+						</div>
+					</li>
+				</ul>
+				</div>
+			</div>
+			<!--head-top e-->
+			
+			<!--购物车区域 s-->
+			<div class="cart_headwrap">
+				<div class="cart_head">
+					<div class="logo">
+						<a href="home.html">
+							
+						</a>
+					</div>
+					<div class="cart_title">
+						
+					</div>
+				</div>
+				<div class="login">
+				
+			    </div>
+			</div>
+			<div class="cart_areawrap">
+				<div class="cart_area">
+					<ul class="list_head">
+						<li class="qx_box">
+							<input type="checkbox" checked="checked" class="qxbtn" />
+						</li>
+						<li class="qx">全选</li>
+						<li class="pro_msg">商品信息</li>
+						<li class="pro_price">单价</li>
+						<li class="pro_num">数量</li>
+						<li class="xj">小计</li>
+						<li class="cz">操作</li>
+					</ul>
+					<ul class="gome_zy">
+						<li class="qx_box">
+							<input type="checkbox" checked="checked" class="qxbtn"/>
+						</li>
+						<li class="zy">
+							<span>国美自营</span>
+						</li>
+					</ul>
+					<div class="list_cnt">
+						<!--<ul class="cur_pro">
+							<li class="qx_box">
+								<input type="checkbox" checked="checked" />
+							</li>
+							<li class="pro_pic">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</li>
+							<li class="pro_name">
+								<div class="name_t">
+									<a href="">
+										<span>全球购超市</span>
+										<b>首都机场北京的市场出口等四大会计师</b>
+									</a>
+								</div>
+								<div class="name_b">
+									<i></i>
+									<span>不支持7天无理由退货</span>
+								</div>
+							</li>
+							<li class="banben">
+								
+							</li>
+							<li class="dan_price">
+								<div>
+									￥<span class="cur_proprice">22</span>
+								</div>
+							</li>
+							<li class="pro_num">
+								<div class="num_box">
+									<span class="jia">-</span>
+									<input type="text" value="1" class="change_num"/>
+									<span class="jian">+</span>
+								</div>
+								
+							</li>
+							<li class="curpro_tol">
+								￥<span class="proNum">234</span>
+							</li>
+							<li class="delete">
+								<div>
+									<p><a href="" class="delete_btn">删除</a></p>
+									<p><a href="">移入收藏夹</a></p>
+								</div>
+							</li>
+						</ul>-->
+					</div>
+				</div>
+				<div id="delete">
+				<i class="g_b">X</i>
+				<div class="body">
+					<span></span>
+					<div class="cnt">
+						<h4>删除商品</h4>
+						<p>确认要删除选中商品吗？</p>
+					</div>
+				</div>
+				<div class="q_x">
+					<span class="q_xbtn">取消</span>
+					<span class="q_rbtn">确认</span>
+				</div>
+			</div>
+			</div>
+			<div class="cart_footwrap">
+				<div class="cart_foot">
+					<ul class="left">
+						<li class="qx_box">
+							<input type="checkbox" checked="checked" class="qxbtn"/>
+						</li>
+						<li class="delete_q">
+							<a class="delete_qpro">删除</a>
+						</li>
+					</ul>
+					<ul class="right">
+						<li class="pro_tolnum">
+							已选&nbsp;<span class="totalNum">0</span>&nbsp;件商品
+						</li>
+						<li class="pro_tolmoney">
+							<em>总计（不含运费）:</em>
+							<b>￥<span class="totalMoney">0</span></b>
+						</li>
+						<li class="jie_suan">
+							<a href="">去结算&nbsp;》</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--shanchu-->
+			<!--<div id="delete">
+				<i class="g_b">X</i>
+				<div class="body">
+					<span></span>
+					<div class="cnt">
+						<h4>删除商品</h4>
+						<p>确认要删除选中商品吗？</p>
+					</div>
+				</div>
+				<div class="q_x">
+					<span class="q_xbtn">取消</span>
+					<span class="q_rbtn">确认</span>
+				</div>
+			</div>-->
+			<div class="meng_ban">
+				
+			</div>
+			<!--购物车区域 e-->
+			
+			<!--尾部 s-->
+			<div id="gome-foot">
+			    <div id="gome-foot-box">
+			        <span class="clearfix ">
+			            <i></i>
+			            <p><strong>门店服务</strong>
+			                <a rel="nofollow" data-code="1000043114-0" href="//help.gome.com.cn/question/37.html" target="_blank">国美门店全国共计2000余家</a>
+			</p>
+			        </span>
+			        <span class="clearfix ued">
+			            <i></i>
+			            <p><strong>用户体验</strong>
+			                <a rel="nofollow" data-code="1000043114-1" href="//help.gome.com.cn/question/5658.html" target="_blank">参与用户体验改进计划</a>
+			                <a rel="nofollow" data-code="1000043114-1" href="//survey.gome.com.cn/wj/762050349c.html" target="_blank">用户反馈</a>
+			            </p>
+			        </span>
+			        <div class="qrcode-section">
+			            <em class="code-sm wx">
+			                <i></i>
+			                <p>公众号</p>
+			                <div><img src="//app.gomein.net.cn/images/grey.gif" gome-src="//gfs10.gomein.net.cn/T1kPDvBvZj1RCvBVdK.jpg"><i class="icon-triangle"></i></div>
+			            </em>
+			            <em class="code-sm wap">
+			                <i></i>
+			                <p>手机站点</p>
+			                <div><img src="//app.gomein.net.cn/images/grey.gif" gome-src="//gfs13.gomein.net.cn/T1gGKvBshT1RCvBVdK.jpg"><i class="icon-triangle"></i></div>
+			            </em>
+			            <em class="code-bg app">
+			                <i>
+			                    <a data-code="1000043112-0" href="//shouji.gome.com.cn/" target="_blank"><img src="//gfs11.gomein.net.cn/T1sIDvB7hj1RCvBVdK.jpg"></a>
+			                    
+			                </i>
+			                <p>扫描下载客户端</p>
+			            </em>
+			        </div>
+			        <ul>
+			            <li><a data-code="1000043124-0" href="http://igome.com/" target="_blank" rel="nofollow">国美集团</a></li>
+			            <li><a data-code="1000043124-1" href="//www.gomegj.com/" target="_blank">国美管家</a></li>
+			            <li><a data-code="1000043124-2" href="//help.gome.com.cn/about/company.html" target="_blank" rel="nofollow">关于国美</a></li>
+			            <li><a data-code="1000043124-3" href="//zp.gome.com.cn" target="_blank" rel="nofollow">加入我们</a></li><li>|</li>
+			            <li><a data-code="1000043124-4" href="//brand.gome.com.cn/" target="_blank">品牌大全</a></li>
+			            <li><a data-code="1000043124-5" href="//www.gome.com.cn/topic/" target="_blank">商品专题</a></li>
+			            <li><a data-code="1000043124-6" href="//www.gome.com.cn/pifa/" target="_blank">批发大全</a></li>
+			            <li><a data-code="1000043124-7" href="//www.gome.com.cn/hotwords/" target="_blank">热词搜索</a></li>
+			            <li><a data-code="1000043124-8" href="//www.gome.com.cn/links/" target="_blank" rel="nofollow">友情链接</a></li>
+			            <li><a data-code="1000043124-9" href="//news.gome.com.cn/4-8ef49f4b-1-8.html" target="_blank" rel="nofollow">风险监测</a></li><li>|</li>
+			            <li><a data-code="1000043124-10" href="//cps.gome.com.cn/" target="_blank" rel="nofollow">销售联盟</a></li>
+			            <li><a data-code="1000043124-11" href="//www.gome.com.cn/join/" target="_blank" rel="nofollow">商家入驻</a></li>
+			        </ul>
+			    <p>本公司游戏产品适合18岁以上成年人使用&nbsp;&nbsp;违法和不良信息举报电话：021-60766055&nbsp;&nbsp;<a class="interDrug" href="http://gfs13.gomein.net.cn/T1cPYvBmYT1RCvBVdK.jpg" target="_blank">互联网药品信息服务资格证编号（京）-经营性-2013-0011</a></p>
+			    <p>国美在线电子商务有限公司&nbsp;&nbsp;办公地址:上海市嘉定区沪宜公路3163-3199号一楼A区&nbsp;&nbsp;客服电话:4008708708</p>
+			        <p>©2000-2017&nbsp;&nbsp;国美在线电子商务有限公司版权所有&nbsp;&nbsp;京公安网备11010502027062&nbsp;&nbsp;沪ICP备11009419号&nbsp;&nbsp;沪B2-20120004号</p>
+			        <div class="gome-foot-credit">
+			            <a class="credit-baxx" href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=dov73ne26zbqpugb8ivnfez35upwknav4n" target="_blank" rel="nofollow"><i></i><b>经营性网站备案信息</b></a>
+			            <a class="credit-xypj" href="https://ss.knet.cn/verifyseal.dll?sn=2011071100100011373&amp;comefrom=trust" target="_blank" rel="nofollow"><i></i><b>可信网站信用评价</b></a>
+			            <a class="credit-cxwz" href="http://search.cxwz.org/cert/l/CX20111018000607000618" target="_blank" rel="nofollow"><i></i><b>诚信网站</b></a>
+			            <a class="credit-hdjc" href="http://www.bj.cyberpolice.cn/index.do" target="_blank" rel="nofollow"><i></i><b>朝阳网络警察</b></a>
+			            <a class="credit-wgdj" href="http://shwg.dianping.com/index.html" target="_blank" rel="nofollow"><i></i><b>网购大家评</b></a>
+			            <a class="credit-report" href="http://www.shjbzx.cn/" target="_blank" rel="nofollow"><i></i><b>上海市互联网违法和不良信息举报中心</b></a>
+			        </div>
+			        <em class="turst-gome"></em>
+			    </div>
+			</div>
+			
+			<!--尾部  e-->
+	</body>
+</html>

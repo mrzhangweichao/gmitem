@@ -1,0 +1,61 @@
+[
+	{
+		"Tit": "品牌盛宴",
+		"List": [
+			{
+				"imgsrc": "img/ppsy1.jpg",
+				"url": "#"
+			}, 
+			{
+				"imgsrc": "img/ppsy2.jpg",
+				"url": "#"
+			},
+			{
+				"imgsrc": "img/ppsy3.jpg",
+				"url": "#"
+			},
+			{
+				"imgsrc": "img/ppsy4.jpg",
+				"url": "#"
+			},
+			{
+				"imgsrc": "img/ppsy5.jpg",
+				"url": "#"
+			},
+			{
+				"imgsrc": "img/ppsy6.jpg",
+				"url": "#"
+			}
+		]
+	}, 
+	{
+		"Tit": "人群导购",
+		"List": [
+			{
+				"imgsrc": "img/rqdg1.jpg",
+				"url": "#"
+			}, 
+			{
+				"imgsrc": "img/rqdg2.jpg",
+				"url": "#"
+			},
+			{
+				"imgsrc": "img/rqdg3.jpg",
+				"url": "#"
+			},
+			{
+				"imgsrc": "img/rqdg4.jpg",
+				"url": "#"
+			},
+			{
+				"imgsrc": "img/rqdg5.jpg",
+				"url": "#"
+			},
+			{
+				"imgsrc": "img/rqdg6.jpg",
+				"url": "#"
+			}
+		]
+	}
+
+]

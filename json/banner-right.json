@@ -1,0 +1,43 @@
+[
+	{
+		"t": [
+			{
+				"imgsrc": "img/banner-r-t.jpg",
+				"url": "#"
+			}
+		],
+		"b":{
+			     "0": [
+				{
+				    "imgsrc": "img/quan1.jpg",
+					"url": "#"
+				}, 
+				{
+				    "imgsrc": "img/quan2.jpg",
+					"url": "#"
+				},
+				{
+				    "imgsrc": "img/quan3.jpg",
+					"url": "#"
+				}
+			],
+			"1": [
+				
+				{
+				    "imgsrc": "img/quan4.jpg",
+					"url": "#"
+				},
+				{
+				    "imgsrc": "img/quan5.jpg",
+					"url": "#"
+				},
+				{
+				    "imgsrc": "img/quan6.jpg",
+					"url": "#"
+				}
+			]
+		    
+		}
+		
+	}
+]

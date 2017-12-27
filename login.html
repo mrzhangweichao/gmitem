@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="scss&css/total.css" />
+		<script src="js/jquery-1.11.0.js"></script>
+		<link rel="stylesheet" type="text/css" href="scss&css/login.css"/>
+		<!--<script src="js/head&foot.js"></script>-->
+		<script src="js/login.js"></script>
+		<script src="js/basejs.js"></script>
+	</head>
+	<body>
+		<div class="login_headwrap">
+			<div class="login_head">
+				<div class="logo">
+					<a href="home.html">
+						
+					</a>
+				</div>
+				
+			</div>
+		
+		</div>
+		
+	    <!--登录 start-->
+	    <div class="login_bg">
+	    	<div class="login_cnt">
+	    		<div class="login_box_wrap">
+	    			<div class="loginHead">
+	                    <div class="loginTab tabLeft" id="tabLeft">
+	                    	<a class="cur">扫码登录</a>
+	                    </div>
+	                    <div class="loginTab tabRight" id="tabRight">
+	                    	<a class="">账户登录</a>
+	                    </div>
+               		 </div>
+               		 <div class="loginBox">
+               		 	<div class="sm-login-box login-wrap" id="sm-login">
+							<div class="default-state">
+								<div class="qrcode-main " id="barcodeId">
+									<div class="qrcode-Image" style="left: 75px;">
+										<img id="kaptchaImage22" src="img/ewm.png" style="">
+									</div>
+									<div class="qrcode-help"></div>
+								</div>
+								<!--<div class="right-state">
+									<div class="right-bg"></div>
+									<p class="right-title">扫描成功！</p>
+									<p class="padtop20" style="color:#a5a5a5">请按手机的提示操作，请勿刷新本页面！</p>
+								</div>-->
+								<!--<div class="ma" id="errorTipCon" style="display:none">
+									<div class="error-state">
+										<p class="error-title">二维码已失效</p>
+										<a href="javascript:" onclick="refBarcode('f');">点击刷新</a>
+									</div>
+									<div class="keepOut"></div>
+								</div>-->
+							</div>
+							<p class="qrcode-desc">打开手机
+								<a href="home.html">
+									国美
+								</a>
+							</p>
+							<p class="smCode">扫一扫登录</p>
+							<a class="fontBlink fr registerBtn" href="register.html"  title="免费注册" >
+								免费注册
+							</a>
+						</div>
+						<div class="login-wrap login-k">
+							<div class="alert_box">
+								<span>-</span>
+								<p></p>
+							</div>
+							<form action="">
+								<div class="normalLogin">
+									<input type="text" id="user" placeholder="手机号码/用户名/邮箱/门店会员卡号"/>
+									<input type="password" id="psw" placeholder="密码"/>
+								</div>
+								<div class="login_foot">
+									<div class="foot_l">
+										<input type="checkbox" name="" id="zd_login" value="" />
+										<label for="">自动登录</label>
+									</div>
+									<div class="foot_r">
+										<a href="">忘记密码</a>
+										<span>｜</span>
+										<a href="register.html" class="z_c">免费注册</a>
+									</div>
+									<input type="button" value="登&nbsp;录" class="login_btn" />
+								</div>
+							</form>
+							<p class="tel_login"><a href="">手机号快速登录</a></p>
+							
+						</div>
+						<dl class="corp-login" id="corp-login">
+							<dd class="play_icon">
+								<a href="" class="borderLine" >门店会员卡登录</a>
+								<a id="corp_qq" href="" class="borderLine"><em>QQ</em></a>
+								<a id="corp_weixin" href="" class="borderLine">微信</a>
+								<a id="corp_sina" href=""  class="borderLine">微博</a>
+								<a id="corp_gomezhifu" href="">美付宝</a>
+								<a id="corp_jixintong" href=""  class="borderLine hide">极信通</a>
+								<a id="corp_alipay" href="" class="hide">支付宝</a>
+							
+							</dd>
+							<dd><a class="more"></a></dd>
+						</dl>
+               		 </div>
+	    		</div>
+	    	</div>
+	    </div>
+		<!--登录 end-->
+		
+		<!--尾部 s-->
+			<div id="gome-foot">
+			    <div id="gome-foot-box">
+			        <span class="clearfix ">
+			            <i></i>
+			            <p><strong>门店服务</strong>
+			                <a rel="nofollow" data-code="1000043114-0" href="//help.gome.com.cn/question/37.html" target="_blank">国美门店全国共计2000余家</a>
+			</p>
+			        </span>
+			        <span class="clearfix ued">
+			            <i></i>
+			            <p><strong>用户体验</strong>
+			                <a rel="nofollow" data-code="1000043114-1" href="//help.gome.com.cn/question/5658.html" target="_blank">参与用户体验改进计划</a>
+			                <a rel="nofollow" data-code="1000043114-1" href="//survey.gome.com.cn/wj/762050349c.html" target="_blank">用户反馈</a>
+			            </p>
+			        </span>
+			        <div class="qrcode-section">
+			            <em class="code-sm wx">
+			                <i></i>
+			                <p>公众号</p>
+			                <div><img src="//app.gomein.net.cn/images/grey.gif" gome-src="//gfs10.gomein.net.cn/T1kPDvBvZj1RCvBVdK.jpg"><i class="icon-triangle"></i></div>
+			            </em>
+			            <em class="code-sm wap">
+			                <i></i>
+			                <p>手机站点</p>
+			                <div><img src="//app.gomein.net.cn/images/grey.gif" gome-src="//gfs13.gomein.net.cn/T1gGKvBshT1RCvBVdK.jpg"><i class="icon-triangle"></i></div>
+			            </em>
+			            <em class="code-bg app">
+			                <i>
+			                    <a data-code="1000043112-0" href="//shouji.gome.com.cn/" target="_blank"><img src="//gfs11.gomein.net.cn/T1sIDvB7hj1RCvBVdK.jpg"></a>
+			                    
+			                </i>
+			                <p>扫描下载客户端</p>
+			            </em>
+			        </div>
+			        <ul>
+			            <li><a data-code="1000043124-0" href="http://igome.com/" target="_blank" rel="nofollow">国美集团</a></li>
+			            <li><a data-code="1000043124-1" href="//www.gomegj.com/" target="_blank">国美管家</a></li>
+			            <li><a data-code="1000043124-2" href="//help.gome.com.cn/about/company.html" target="_blank" rel="nofollow">关于国美</a></li>
+			            <li><a data-code="1000043124-3" href="//zp.gome.com.cn" target="_blank" rel="nofollow">加入我们</a></li><li>|</li>
+			            <li><a data-code="1000043124-4" href="//brand.gome.com.cn/" target="_blank">品牌大全</a></li>
+			            <li><a data-code="1000043124-5" href="//www.gome.com.cn/topic/" target="_blank">商品专题</a></li>
+			            <li><a data-code="1000043124-6" href="//www.gome.com.cn/pifa/" target="_blank">批发大全</a></li>
+			            <li><a data-code="1000043124-7" href="//www.gome.com.cn/hotwords/" target="_blank">热词搜索</a></li>
+			            <li><a data-code="1000043124-8" href="//www.gome.com.cn/links/" target="_blank" rel="nofollow">友情链接</a></li>
+			            <li><a data-code="1000043124-9" href="//news.gome.com.cn/4-8ef49f4b-1-8.html" target="_blank" rel="nofollow">风险监测</a></li><li>|</li>
+			            <li><a data-code="1000043124-10" href="//cps.gome.com.cn/" target="_blank" rel="nofollow">销售联盟</a></li>
+			            <li><a data-code="1000043124-11" href="//www.gome.com.cn/join/" target="_blank" rel="nofollow">商家入驻</a></li>
+			        </ul>
+			    <p>本公司游戏产品适合18岁以上成年人使用&nbsp;&nbsp;违法和不良信息举报电话：021-60766055&nbsp;&nbsp;<a class="interDrug" href="http://gfs13.gomein.net.cn/T1cPYvBmYT1RCvBVdK.jpg" target="_blank">互联网药品信息服务资格证编号（京）-经营性-2013-0011</a></p>
+			    <p>国美在线电子商务有限公司&nbsp;&nbsp;办公地址:上海市嘉定区沪宜公路3163-3199号一楼A区&nbsp;&nbsp;客服电话:4008708708</p>
+			        <p>©2000-2017&nbsp;&nbsp;国美在线电子商务有限公司版权所有&nbsp;&nbsp;京公安网备11010502027062&nbsp;&nbsp;沪ICP备11009419号&nbsp;&nbsp;沪B2-20120004号</p>
+			        <div class="gome-foot-credit">
+			            <a class="credit-baxx" href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=dov73ne26zbqpugb8ivnfez35upwknav4n" target="_blank" rel="nofollow"><i></i><b>经营性网站备案信息</b></a>
+			            <a class="credit-xypj" href="https://ss.knet.cn/verifyseal.dll?sn=2011071100100011373&amp;comefrom=trust" target="_blank" rel="nofollow"><i></i><b>可信网站信用评价</b></a>
+			            <a class="credit-cxwz" href="http://search.cxwz.org/cert/l/CX20111018000607000618" target="_blank" rel="nofollow"><i></i><b>诚信网站</b></a>
+			            <a class="credit-hdjc" href="http://www.bj.cyberpolice.cn/index.do" target="_blank" rel="nofollow"><i></i><b>朝阳网络警察</b></a>
+			            <a class="credit-wgdj" href="http://shwg.dianping.com/index.html" target="_blank" rel="nofollow"><i></i><b>网购大家评</b></a>
+			            <a class="credit-report" href="http://www.shjbzx.cn/" target="_blank" rel="nofollow"><i></i><b>上海市互联网违法和不良信息举报中心</b></a>
+			        </div>
+			        <em class="turst-gome"></em>
+			    </div>
+			</div>
+			
+			<!--尾部  e-->
+	</body>
+</html>

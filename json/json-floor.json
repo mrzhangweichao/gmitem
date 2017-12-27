@@ -1,0 +1,1563 @@
+[
+	{
+		"totalTitle": "休闲食品1",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"1000": {
+					"id": "1000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"1001": {
+					"id": "1001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"mImgsrc": "img/floor1-m2.jpg",
+					"price": "42.90",
+					"url": "#"
+				},
+				"1002": {
+					"id": "1002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"1003": {
+					"id": "1003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"1004": {
+					"id": "1004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"1005": {
+					"id": "1005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"1006": {
+					"id": "1006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"1007": {
+					"id": "1007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"2000": {
+					"id": "2000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"2001": {
+					"id": "2001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"2002": {
+					"id": "2002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"2003": {
+					"id": "2003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"2004": {
+					"id": "2004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"2005": {
+					"id": "2005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"2006": {
+					"id": "2006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"2007": {
+					"id": "2007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"3000": {
+					"id": "3000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"3001": {
+					"id": "3001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"3002": {
+					"id": "3002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"3003": {
+					"id": "3003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"3004": {
+					"id": "3004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"3005": {
+					"id": "3005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"3006": {
+					"id": "3006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"3007": {
+					"id": "3007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"4000": {
+					"id": "4000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"4001": {
+					"id": "4001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"4002": {
+					"id": "4002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"4003": {
+					"id": "4003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"4004": {
+					"id": "4004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"4005": {
+					"id": "4005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"4006": {
+					"id": "4006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"4007": {
+					"id": "4007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"5000": {
+					"id": "5000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"5001": {
+					"id": "5001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"5002": {
+					"id": "5002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"5003": {
+					"id": "5003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"5004": {
+					"id": "5004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"5005": {
+					"id": "5005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"5006": {
+					"id": "5006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"5007": {
+					"id": "5007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"6000": {
+					"id": "6000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"6001": {
+					"id": "6001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"6002": {
+					"id": "6002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"6003": {
+					"id": "6003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"6004": {
+					"id": "6004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"6005": {
+					"id": "6005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"6006": {
+					"id": "6006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"6007": {
+					"id": "6007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"7000": {
+					"id": "7000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"7001": {
+					"id": "7001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"7002": {
+					"id": "7002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"7003": {
+					"id": "7003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"7004": {
+					"id": "7004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"7005": {
+					"id": "7005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"7006": {
+					"id": "7006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"7007": {
+					"id": "7007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"8000": {
+					"id": "8000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"8001": {
+					"id": "8001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"8002": {
+					"id": "8002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"8003": {
+					"id": "8003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"8004": {
+					"id": "8004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"8005": {
+					"id": "8005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"8006": {
+					"id": "8006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"8007": {
+					"id": "8007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"9000": {
+					"id": "9000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"9001": {
+					"id": "9001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"9002": {
+					"id": "9002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"9003": {
+					"id": "9003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"9004": {
+					"id": "9004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"9005": {
+					"id": "9005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"9006": {
+					"id": "9006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"9007": {
+					"id": "9007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"10000": {
+					"id": "10000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"10001": {
+					"id": "10001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"10002": {
+					"id": "10002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"10003": {
+					"id": "10003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"10004": {
+					"id": "10004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"10005": {
+					"id": "10005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"10006": {
+					"id": "10006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"10007": {
+					"id": "10007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"11000": {
+					"id": "11000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"11001": {
+					"id": "11001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"mImgsrc": "img/floor1-m2.jpg",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"price": "42.90",
+					"url": "#"
+				},
+				"11002": {
+					"id": "11002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"11003": {
+					"id": "11003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"11004": {
+					"id": "11004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"11005": {
+					"id": "11005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"11006": {
+					"id": "11006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"11007": {
+					"id": "11007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	},
+	{
+		"totalTitle": "休闲食品",
+		"headList":[{"name":"水/饮料","url":"#"},
+					{"name":"咖啡","url":"#"},
+					{"name":"谷物冲调","url":"#"},
+					{"name":"月饼","url":"#"},
+					{"name":"饼干糕点","url":"#"},
+					{"name":"坚果炒货","url":"#"},
+					{"name":"休闲零食","url":"#"},
+					{"name":"糖果巧克力","url":"#"}
+				],
+		"cnt": {
+			"l": {
+				"t": [
+					{
+						"lImgsrc": "img/floor1-l1.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l2.jpg",
+						"url": "#"
+					}, {
+						"lImgsrc": "img/floor1-l3.jpg",
+						"url": "#"
+					}
+				],
+				"b": [
+					{
+						"name": "零食",
+						"link": "#"
+					}, {
+						"name": "坚果",
+						"link": "#"
+					}, {
+						"name": "巧克力",
+						"link": "#"
+					}, {
+						"name": "蜜饯",
+						"link": "#"
+					}, {
+						"name": "糕点",
+						"link": "#"
+					}, {
+						"name": "肉干肉脯",
+						"link": "#"
+					}, {
+						"name": "肉禽蛋",
+						"link": "#"
+					}, {
+						"name": "牛奶",
+						"link": "#"
+					}
+				]
+			},
+			"m": {
+				"12000": {
+					"id": "12000",
+					"title": "【国美自营】沃隆 休闲零食 坚果炒货 每日坚果A成人款(25g*30)包750g",
+					"mImgsrc": "img/floor1-m1.jpg",
+					"detailImg":["img/detail1.jpg","img/detail2.jpg","img/detail3.jpg","img/detail4.jpg","img/detail5.jpg"],
+					"price": "148.00",
+					"url": "#"
+				},
+				"12001": {
+					"id": "12001",
+					"title": "德芙碗装巧克力香浓黑巧碗装252g",
+					"detailImg":["img/detail11.jpg","img/detail12.jpg","img/detail13.jpg","img/detail14.jpg","img/detail15.jpg"],
+					"mImgsrc": "img/floor1-m2.jpg",
+					"price": "42.90",
+					"url": "#"
+				},
+				"12002": {
+					"id": "12002",
+					"title": "【国美自营】Aji酵母減盐味苏打休闲零食 早餐 零食点心 饼干 (简体版)472.5g",
+					"mImgsrc": "img/floor1-m3.jpg",
+					"detailImg":["img/detail21.jpg","img/detail22.jpg","img/detail23.jpg","img/detail24.jpg","img/detail25.jpg"],
+					"price": "16.90",
+					"url": "#"
+				},
+				"12003": {
+					"id": "12003",
+					"title": "【国美自营】劲仔 休闲零食 小鱼麻辣味15克*20",
+					"mImgsrc": "img/floor1-m4.jpg",
+					"detailImg":["img/detail31.jpg","img/detail32.jpg","img/detail33.jpg","img/detail34.jpg","img/detail35.jpg"],
+					"price": "32.80",
+					"url": "#"
+				},
+				"12004": {
+					"id": "12004",
+					"title": "汇源儿童金装 1 0 0 %果汁190ml*15盒",
+					"mImgsrc": "img/floor1-m5.jpg",
+					"detailImg":["img/detail41.jpg","img/detail42.jpg","img/detail43.jpg","img/detail44.jpg","img/detail45.jpg"],
+					"price": "59.00",
+					"url": "#"
+				},
+				"12005": {
+					"id": "12005",
+					"title": "【国美自营】雀巢咖啡1+2原味(长条)1500g",
+					"mImgsrc": "img/floor1-m6.jpg",
+					"detailImg":["img/detail51.jpg","img/detail52.jpg","img/detail53.jpg","img/detail54.jpg","img/detail55.jpg"],
+					"price": "108.00",
+					"url": "#"
+				},
+				"12006": {
+					"id": "12006",
+					"title": "【国美自营】立顿香浓原味奶茶固体饮料 750g",
+					"mImgsrc": "img/floor1-m7.jpg",
+					"detailImg":["img/detail61.jpg","img/detail62.jpg","img/detail63.jpg","img/detail64.jpg","img/detail65.jpg"],
+					"price": "49.80",
+					"url": "#"
+				},
+				"12007": {
+					"id": "12007",
+					"title": "加多宝凉茶310ml*24",
+					"mImgsrc": "img/floor1-m8.jpg",
+					"detailImg":["img/detail71.jpg","img/detail72.jpg","img/detail73.jpg","img/detail74.jpg","img/detail75.jpg"],
+					"price": "88.00",
+					"url": "#"
+				}
+			},
+			"r": [
+				{
+					"rImgsrc": "img/floor1-r1.jpg",
+					"url": "#"
+				}, {
+					"rImgsrc": "img/floor1-r2.jpg",
+					"url": "#"
+				}
+			]
+		}
+	}
+	
+]

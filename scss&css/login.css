@@ -1,0 +1,449 @@
+.login_headwrap {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 20px; }
+  .login_headwrap .login_head {
+    width: 990px;
+    height: 120px;
+    margin: 0 auto; }
+    .login_headwrap .login_head .logo {
+      width: 125px;
+      height: 56px;
+      float: left;
+      margin: 32px 10px 0 0; }
+      .login_headwrap .login_head .logo a {
+        display: block;
+        width: 300px;
+        height: 62px;
+        background: url(../img/loginlogo.png) no-repeat 0 0; }
+
+.login_bg {
+  width: 100%;
+  height: 480px;
+  background: #8fcdff; }
+  .login_bg .login_cnt {
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto;
+    background-position: top center;
+    background: url(../img/loginbg.jpg) no-repeat;
+    position: relative;
+    z-index: 990; }
+    .login_bg .login_cnt .login_box_wrap {
+      width: 350px;
+      float: right;
+      margin-top: 24px;
+      margin-right: 105px;
+      position: relative;
+      background: #fff;
+      overflow: visible; }
+      .login_bg .login_cnt .login_box_wrap .loginHead {
+        position: relative;
+        height: 54px; }
+        .login_bg .login_cnt .login_box_wrap .loginHead .loginTab {
+          position: absolute;
+          border-bottom: 1px solid #f4f4f4;
+          font: 500 18px "Microsoft Yahei";
+          text-align: center;
+          color: #5e5e5e; }
+          .login_bg .login_cnt .login_box_wrap .loginHead .loginTab a {
+            height: 18px;
+            position: absolute;
+            left: 0;
+            width: 99%;
+            text-decoration: none;
+            top: 16px;
+            cursor: pointer;
+            display: block; }
+        .login_bg .login_cnt .login_box_wrap .loginHead .tabLeft {
+          left: 0;
+          width: 174px; }
+          .login_bg .login_cnt .login_box_wrap .loginHead .tabLeft a {
+            border-right: 1px solid #f4f4f4;
+            color: #5e5e5e; }
+        .login_bg .login_cnt .login_box_wrap .loginHead .tabRight {
+          right: 0;
+          width: 175px; }
+          .login_bg .login_cnt .login_box_wrap .loginHead .tabRight a {
+            color: #5e5e5e; }
+        .login_bg .login_cnt .login_box_wrap .loginHead .loginTab .cur {
+          color: #e3101e; }
+      .login_bg .login_cnt .login_box_wrap .loginBox {
+        min-height: 241px;
+        padding: 25px 11px 0 19px;
+        color: #A5A5A5; }
+        .login_bg .login_cnt .login_box_wrap .loginBox .login-k {
+          display: none; }
+        .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap {
+          position: relative; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap .alert_box {
+            display: none;
+            width: 290px;
+            height: 22px;
+            line-height: 22px;
+            background: #fee;
+            color: #e3111e;
+            font-family: simsun;
+            position: absolute;
+            top: -25px;
+            left: 11px;
+            z-index: 3;
+            margin-left: 2px; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap .alert_box span {
+              display: block;
+              width: 10px;
+              height: 10px;
+              overflow: hidden;
+              float: left;
+              margin: 4px 10px 0 20px;
+              display: inline-block;
+              line-height: 10px;
+              text-align: center;
+              border: 2px solid #e3111e;
+              color: #e3111e;
+              border-radius: 6px; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap .alert_box p {
+              float: left;
+              color: #e3111e;
+              font-size: 12px; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .normalLogin {
+            margin-left: 13px; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .normalLogin #user {
+              padding: 8px 10px 7px;
+              width: 268px;
+              height: 25px;
+              border: 1px solid #CCC;
+              font-family: Arial,simsun;
+              outline: 0 none;
+              color: #333;
+              font-size: 14px;
+              line-height: 21px;
+              z-index: 2;
+              color: #cecece; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .normalLogin #psw {
+              position: relative;
+              padding: 8px 10px 7px;
+              width: 268px;
+              height: 25px;
+              border: 1px solid #CCC;
+              font-family: Arial,simsun;
+              outline: 0 none;
+              color: #333;
+              font-size: 14px;
+              line-height: 21px;
+              z-index: 2;
+              margin-top: 20px; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot {
+            margin-left: 13px;
+            padding: 10px 0 12px; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_l {
+              float: left; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_l input {
+                float: left;
+                margin-right: 4px;
+                margin-top: 3px; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_l span {
+                font-size: 12px;
+                color: #5e5e5e; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_r {
+              float: right;
+              font-size: 12px; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_r a {
+                color: #5e5e5e;
+                cursor: pointer;
+                float: left; }
+                .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_r a:hover {
+                  color: #ff5757;
+                  text-decoration: underline; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_r span {
+                padding: 0 10px;
+                color: #ccc;
+                float: left; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_r .z_c {
+                padding: 0 10px 0 5px;
+                color: #2875cc; }
+                .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .foot_r .z_c:hover {
+                  color: #2875cc;
+                  text-decoration: underline; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .login_btn {
+              width: 290px;
+              height: 42px;
+              cursor: pointer;
+              text-align: center;
+              border: 0 none;
+              outline: 0;
+              background: #f64949;
+              color: #fff;
+              margin-top: 20px;
+              font-size: 20px; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap form .login_foot .login_btn:hover {
+                background: #ff5757; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap .tel_login {
+            margin-left: 15px;
+            padding: 30px 0 15px;
+            font-size: 12px; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap .tel_login a {
+              color: #2875CC; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .login-wrap .tel_login a:hover {
+                text-decoration: underline; }
+        .login_bg .login_cnt .login_box_wrap .loginBox .corp-login {
+          font-size: 12px;
+          overflow: hidden;
+          clear: both;
+          background-color: #fcfcfc;
+          padding: 9px 20px;
+          color: #a5a5a5;
+          position: relative;
+          border: 1px solid #f0f0f0;
+          height: 26px; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .corp-login .play_icon {
+            width: 300px; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .corp-login .play_icon a {
+              float: left;
+              white-space: nowrap;
+              cursor: pointer;
+              color: #5e5e5e;
+              padding: 0 8px;
+              margin: 6px 0; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .corp-login .play_icon a:hover {
+                color: #ff5757;
+                text-decoration: underline; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .corp-login .play_icon .borderLine {
+              border-right: 1px solid #e6e6e6; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .corp-login dd .more {
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            padding: 0;
+            margin: 0;
+            top: 14px;
+            right: 5px;
+            background-position: 0 0;
+            background: url(../img/login-bg-common.png) no-repeat; }
+        .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box {
+          width: 320px;
+          color: #888;
+          padding-top: 0;
+          padding: 0 0 24px; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .default-state {
+            width: 320px;
+            height: 167px;
+            text-align: center; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .default-state .qrcode-main {
+              position: relative;
+              width: 320px;
+              height: 165px; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .default-state .qrcode-main .qrcode-Image {
+                float: left;
+                position: absolute;
+                left: 75px;
+                border: 1px solid #e6e6e6; }
+                .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .default-state .qrcode-main .qrcode-Image img {
+                  width: 165px;
+                  height: 165px; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .default-state .qrcode-main .qrcode-help {
+                float: right;
+                width: 137px;
+                height: 173px;
+                margin-left: 10px;
+                display: none;
+                margin-top: -8px;
+                background: url(../img/mobile.png) no-repeat; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .qrcode-desc {
+            color: #5e5e5e;
+            font-size: 12px;
+            text-align: center;
+            line-height: 14px;
+            padding: 17px 0 0; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .qrcode-desc a {
+              color: #ff5757; }
+              .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .qrcode-desc a:hover {
+                text-decoration: underline; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .smCode {
+            margin-top: 5px;
+            color: #5e5e5e;
+            font-size: 12px;
+            text-align: center;
+            line-height: 14px; }
+          .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .registerBtn {
+            position: absolute;
+            bottom: 10px;
+            right: 14px;
+            width: 50px;
+            height: 18px;
+            color: #069;
+            cursor: pointer;
+            font-size: 12px; }
+            .login_bg .login_cnt .login_box_wrap .loginBox .sm-login-box .registerBtn:hover {
+              color: #ff5757;
+              text-decoration: underline; }
+
+#gome-foot {
+  border-top: 1px solid #dd00a7;
+  background: #f7f7f7;
+  margin-top: 15px;
+  zoom: 1; }
+  #gome-foot #gome-foot-box {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    background: #f7f7f7; }
+    #gome-foot #gome-foot-box span {
+      display: inline-block;
+      padding: 0 50px 40px 0; }
+      #gome-foot #gome-foot-box span i {
+        display: block;
+        width: 45px;
+        height: 45px;
+        background: url(../img/ui.png) no-repeat 0 -135px;
+        float: left; }
+      #gome-foot #gome-foot-box span p {
+        margin-left: 10px;
+        font: 12px/20px Arial,"Microsoft YaHei";
+        float: left;
+        width: 210px;
+        overflow: hidden;
+        height: 45px; }
+        #gome-foot #gome-foot-box span p strong {
+          display: block;
+          font: 400 16px/25px Arial,"Microsoft YaHei";
+          color: #333; }
+        #gome-foot #gome-foot-box span p a {
+          color: #999; }
+          #gome-foot #gome-foot-box span p a:hover {
+            color: red; }
+    #gome-foot #gome-foot-box .ued i {
+      background-position: -45px -135px; }
+    #gome-foot #gome-foot-box .qrcode-section {
+      position: absolute;
+      right: -10px;
+      top: 15px;
+      font-size: 0; }
+      #gome-foot #gome-foot-box .qrcode-section .code-sm {
+        width: 50px;
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        position: relative; }
+        #gome-foot #gome-foot-box .qrcode-section .code-sm i {
+          width: 40px;
+          height: 25px;
+          background: url(../img/ui.png);
+          display: inline-block; }
+        #gome-foot #gome-foot-box .qrcode-section .code-sm p {
+          font: 12px/22px Arial;
+          color: #999; }
+        #gome-foot #gome-foot-box .qrcode-section .code-sm div {
+          position: absolute;
+          left: -50px;
+          bottom: 54px;
+          z-index: 1000;
+          padding: 10px;
+          border: 1px solid #eee;
+          display: none;
+          background: #fff; }
+          #gome-foot #gome-foot-box .qrcode-section .code-sm div img {
+            display: block;
+            width: 171px; }
+          #gome-foot #gome-foot-box .qrcode-section .code-sm div .icon-triangle {
+            position: absolute;
+            height: 8px;
+            width: 13px;
+            left: 68px;
+            background: url(../img/ui.png) no-repeat -67px -127px !important;
+            top: 100%; }
+      #gome-foot #gome-foot-box .qrcode-section .code-bg {
+        width: 110px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        position: relative; }
+        #gome-foot #gome-foot-box .qrcode-section .code-bg i {
+          width: 90px;
+          height: 90px;
+          background: url(../img/ui.png);
+          display: inline-block; }
+          #gome-foot #gome-foot-box .qrcode-section .code-bg i a {
+            display: block;
+            width: 90px;
+            height: 90px; }
+            #gome-foot #gome-foot-box .qrcode-section .code-bg i a img {
+              width: 90px;
+              height: 90px; }
+        #gome-foot #gome-foot-box .qrcode-section .code-bg p {
+          text-align: center; }
+      #gome-foot #gome-foot-box .qrcode-section .wx i {
+        background-position: -105px -135px; }
+      #gome-foot #gome-foot-box .qrcode-section .wap i {
+        background-position: -185px -135px; }
+      #gome-foot #gome-foot-box .qrcode-section .app i {
+        background-position: 0 -246px; }
+    #gome-foot #gome-foot-box ul {
+      overflow: hidden; }
+      #gome-foot #gome-foot-box ul li {
+        float: left;
+        font: 12px/22px Arial,"Microsoft YaHei";
+        padding: 0 13px 0 0;
+        color: #ccc;
+        white-space: nowrap; }
+        #gome-foot #gome-foot-box ul li a {
+          color: #666;
+          cursor: pointer; }
+          #gome-foot #gome-foot-box ul li a:hover {
+            color: red; }
+    #gome-foot #gome-foot-box p {
+      font: 12px/22px Arial;
+      color: #999; }
+      #gome-foot #gome-foot-box p .interDrug {
+        color: #999; }
+        #gome-foot #gome-foot-box p .interDrug:hover {
+          color: red; }
+    #gome-foot #gome-foot-box .gome-foot-credit {
+      border-top: 1px solid #e6e6e6;
+      margin-top: 5px;
+      padding: 10px 0 25px;
+      overflow: hidden; }
+      #gome-foot #gome-foot-box .gome-foot-credit i {
+        display: block;
+        width: 35px;
+        height: 35px;
+        background: url(../img/ui.png) no-repeat 0 -180px;
+        float: left; }
+      #gome-foot #gome-foot-box .gome-foot-credit b {
+        font: 12px/18px Arial,"Microsoft YaHei";
+        display: block;
+        width: 50px;
+        float: left;
+        color: #999;
+        padding: 0 30px 0 5px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-baxx b {
+        width: 60px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-xypj i {
+        background-position: -35px -180px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-cxwz i {
+        background-position: -70px -180px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-cxwz b {
+        padding-top: 9px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-hdjc i {
+        background-position: -105px -180px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-wgdj i {
+        background-position: -140px -180px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-wgdj b {
+        padding-top: 9px;
+        width: 60px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-report i {
+        background-position: -175px -180px; }
+      #gome-foot #gome-foot-box .gome-foot-credit .credit-report b {
+        width: 110px; }
+    #gome-foot #gome-foot-box .turst-gome {
+      position: absolute;
+      width: 95px;
+      height: 30px;
+      bottom: 27px;
+      right: 0;
+      background: url(../img/ui.png) no-repeat -168px -1165px;
+      display: none; }
+
+/*# sourceMappingURL=login.css.map */
